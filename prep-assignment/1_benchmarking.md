@@ -100,7 +100,7 @@ endrsubmit;
 ```
 
 The `select conm, fyear, (csho * prcc_f / ceq) as mtb` tells SAS what we want from 'comp.funda'. 'conm' is company name, 'chso' is common shares outstanding, 'prcc_f' is end of fiscal year stock price, 'ceq' is book equity.
-Notice how we can make new variables 'as mtb' names the newly created variable. Tutorial [2. Finding your way on WRDS](2_using_wrds_website) covers how you can find out which variable names are used in the tables.
+Notice how we can make new variables 'as mtb' names the newly created variable. Tutorial [2. Finding your way on WRDS](https://github.com/JoostImpink/SAS-bootcamp/blob/master/2_using_wrds_website) covers how you can find out which variable names are used in the tables.
 
 ### Proc print
 
