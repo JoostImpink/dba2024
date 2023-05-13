@@ -201,7 +201,7 @@ quit;
 
 1. Select a non-financial firm that is in the [Dow Jones 30 index](http://money.cnn.com/data/dow30/)
 
-2. Find the gvkey for this firm, and the industry it is in using [the WRDS Search Company](https://wrds-web.wharton.upenn.edu/wrds/code_search/) form. (Note: you can search for the ticker with -- for example -- `ticker:INTC` (Intel), look at columns `gvkey` and `sic`)
+2. Find the gvkey for this firm, and the industry it is in using [the WRDS Search Company](https://wrds-www.wharton.upenn.edu/attribute-search/) form. (Note: you can search for the ticker with -- for example -- `ticker:INTC` (Intel), look at columns `gvkey` and `sic`)
 
 3.  Compute the following financial ratios over the last 10 years (for assets, use end-of-year numbers):
 	- Return on assets (ROA, net income divided by assets)
@@ -232,7 +232,7 @@ endrsubmit;
 
 ## Notes
 
-1. These are the variables' names in Compustat Funda (see WRDS website for comprehensive list of variables in Compustat Funda, click 'Variables' on https://wrds-web.wharton.upenn.edu/wrds/ds/compd/funda/index.cfm?navId=83):
+1. These are the variables' names in Compustat Funda (see WRDS website for comprehensive list of variables in Compustat Funda, click 'Variable Descriptions' on https://wrds-www.wharton.upenn.edu/pages/get-data/compustat-capital-iq-standard-poors/compustat/north-america-daily/fundamentals-annual/):
 	- Assets: AT
 	- Net income: NI
 	- Sales: SALE
